@@ -2,6 +2,9 @@ import "./styles.css";
 // Definir variables
 var jugador = 1;
 
+// TODO: @ALL variable puntaje del jugador 1
+// TODO: @ALL variable puntaje del jugador 2
+
 // funcion tirar dado
 function tirar_dado() {
   var dado = Math.floor(Math.random() * 6 + 1);
@@ -41,6 +44,8 @@ document.getElementById("app").innerHTML = `
 `;
 document.getElementById("app").append(titulo);
 
+// TODO: @ALL Crear tabla de puntajes
+
 // funcion cambiar jugador
 
 // representa turnos
@@ -52,6 +57,8 @@ for (var turno = 0; turno <= 20; turno++) {
   var dado = tirar_dado();
 
   if (dado === 6) {
+    // ?? quien es el jugador
+    // TODO: @ALL sumar un punto al jugador
     document.getElementById("mensaje").innerText = "😂";
   } else {
     document.getElementById("mensaje").innerText = "🤬";

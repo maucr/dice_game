@@ -1,0 +1,9 @@
+body {
+  font-family: sans-serif;
+}
+
+#valor_dado {
+  background: chocolate;
+  max-width: 30px;
+  padding: 30px;
+}
