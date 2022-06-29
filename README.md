@@ -12,3 +12,17 @@ Abrir index.html en chrome
 
 ### Diagrama
 ![](/src/images/diagrama.png)
+
+# Instalación 
+# Requiere Node JS y Npm
+node -v
+npm -v
+
+# ir a la carpeta 
+cd dice_game
+
+# install paquetes 
+npm install 
+
+# Iniciar progra 
+npm start 
