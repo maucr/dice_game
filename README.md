@@ -26,3 +26,6 @@ npm install
 
 # Iniciar progra 
 npm start 
+
+
+# abrir en browser http://localhost:1234
